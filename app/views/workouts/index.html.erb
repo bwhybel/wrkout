@@ -1,1 +1,9 @@
-<h1>Hello, Rails</h1>
+<h1>Workouts</h1>
+
+<ul>
+  <% @workouts.each do |workout| %>
+    <li>
+      <%= workout.title %>
+    </li>
+  <% end %>
+</ul>
